@@ -25,7 +25,7 @@ function App() {
       {
         return
       }
-      values[i]=player?"X":"O";
+      values[i]=player?"A":"B";
       setPlayer(!player);
       setSquares(values);
       calculateWinner(values);
